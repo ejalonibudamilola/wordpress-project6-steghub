@@ -90,7 +90,7 @@ Port `3306` was opened on the DB Server's security group, restricted to the Web 
 
 **Remote connection test from Web Server to DB Server**
 
-![Remote MySQL connection from Web Server showing wordpress database](screenshots/7.Show_Databases_on_webserver.pngShow_Databases_on_webserver.png)
+![Remote MySQL connection from Web Server showing wordpress database](screenshots/7.Show_Databases_on_webserver.png)
 
 `wp-config.php` was then updated with the database name, user, password, and DB Server private IP, and port `80` was opened on the Web Server's security group.
 
